@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-dados = {"valor": 0.0}
+dados = {"valor": 0.1}
 
 @app.route("/set", methods=["POST"])
 def set_valor():
